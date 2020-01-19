@@ -1,6 +1,1 @@
 ---
-
-- name: Restart template_role_service
-  service:
-    name: "{{ template_role_service }}"
-    state: restarted
