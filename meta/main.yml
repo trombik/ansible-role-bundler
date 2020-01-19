@@ -1,8 +1,8 @@
 ---
 galaxy_info:
   author: Tomoyuki Sakurai
-  role_name: template_role
-  description: An example template role
+  role_name: bundler
+  description: Install bundler
   company: N/A
   license: MIT
   min_ansible_version: 2.0
@@ -13,7 +13,7 @@ galaxy_info:
         - 12.0
     - name: OpenBSD
       versions:
-        - 6.4
+        - 6.5
     - name: Ubuntu
       versions:
         - bionic
@@ -21,5 +21,6 @@ galaxy_info:
       versions:
         - 7
   galaxy_tags:
-    - system
+    - ruby
+    - bundler
 dependencies: []
