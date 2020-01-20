@@ -1,4 +1,4 @@
-# `trombik.template_role`
+# `trombik.bundler`
 
 Install `bundler`.
 
